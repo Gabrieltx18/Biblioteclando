@@ -99,17 +99,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banco.cs" />
+    <Compile Include="F_adcFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_adcFuncionario.Designer.cs">
+      <DependentUpon>F_adcFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_adcLeitores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_adcLeitores.Designer.cs">
       <DependentUpon>F_adcLeitores.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_adcLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_adcLivro.Designer.cs">
+      <DependentUpon>F_adcLivro.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_Clientes.Designer.cs">
       <DependentUpon>F_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_delFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_delFuncionarios.Designer.cs">
+      <DependentUpon>F_delFuncionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="F_Empretimos.cs">
       <SubType>Form</SubType>
@@ -149,11 +167,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="F_adcFuncionario.resx">
+      <DependentUpon>F_adcFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_adcLeitores.resx">
       <DependentUpon>F_adcLeitores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_adcLivro.resx">
+      <DependentUpon>F_adcLivro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_Clientes.resx">
       <DependentUpon>F_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_delFuncionarios.resx">
+      <DependentUpon>F_delFuncionarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_Empretimos.resx">
       <DependentUpon>F_Empretimos.cs</DependentUpon>

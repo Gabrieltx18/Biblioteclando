@@ -29,53 +29,53 @@ namespace TCC
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btn_Excluir = new System.Windows.Forms.Button();
+            this.btn_Alterar = new System.Windows.Forms.Button();
+            this.lbl = new System.Windows.Forms.Label();
+            this.cb_Busca = new System.Windows.Forms.ComboBox();
             this.btn_Cadastrar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dgv_Leitores = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_Leitores)).BeginInit();
+            this.tb_Busca = new System.Windows.Forms.TextBox();
+            this.dgv_Emprestimos = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Emprestimos)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
+            // btn_Excluir
             // 
-            this.button2.Location = new System.Drawing.Point(761, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 65);
-            this.button2.TabIndex = 24;
-            this.button2.Text = "Excluir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_Excluir.Location = new System.Drawing.Point(761, 12);
+            this.btn_Excluir.Name = "btn_Excluir";
+            this.btn_Excluir.Size = new System.Drawing.Size(100, 65);
+            this.btn_Excluir.TabIndex = 24;
+            this.btn_Excluir.Text = "Excluir";
+            this.btn_Excluir.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_Alterar
             // 
-            this.button1.Location = new System.Drawing.Point(878, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 65);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "Alterar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_Alterar.Location = new System.Drawing.Point(878, 12);
+            this.btn_Alterar.Name = "btn_Alterar";
+            this.btn_Alterar.Size = new System.Drawing.Size(100, 65);
+            this.btn_Alterar.TabIndex = 23;
+            this.btn_Alterar.Text = "Alterar";
+            this.btn_Alterar.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 17);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "Buscar por:";
+            this.lbl.AutoSize = true;
+            this.lbl.Location = new System.Drawing.Point(12, 36);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(81, 17);
+            this.lbl.TabIndex = 22;
+            this.lbl.Text = "Buscar por:";
             // 
-            // comboBox1
+            // cb_Busca
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cb_Busca.FormattingEnabled = true;
+            this.cb_Busca.Items.AddRange(new object[] {
             "nome",
             "CPF"});
-            this.comboBox1.Location = new System.Drawing.Point(99, 33);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 21;
+            this.cb_Busca.Location = new System.Drawing.Point(99, 33);
+            this.cb_Busca.Name = "cb_Busca";
+            this.cb_Busca.Size = new System.Drawing.Size(121, 24);
+            this.cb_Busca.TabIndex = 21;
             // 
             // btn_Cadastrar
             // 
@@ -86,25 +86,25 @@ namespace TCC
             this.btn_Cadastrar.Text = "Cadastrar";
             this.btn_Cadastrar.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // tb_Busca
             // 
-            this.textBox1.Location = new System.Drawing.Point(226, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 22);
-            this.textBox1.TabIndex = 19;
+            this.tb_Busca.Location = new System.Drawing.Point(226, 33);
+            this.tb_Busca.Name = "tb_Busca";
+            this.tb_Busca.Size = new System.Drawing.Size(258, 22);
+            this.tb_Busca.TabIndex = 19;
             // 
-            // dgv_Leitores
+            // dgv_Emprestimos
             // 
-            this.dgv_Leitores.AllowUserToAddRows = false;
-            this.dgv_Leitores.AllowUserToDeleteRows = false;
-            this.dgv_Leitores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_Leitores.Location = new System.Drawing.Point(15, 83);
-            this.dgv_Leitores.Name = "dgv_Leitores";
-            this.dgv_Leitores.ReadOnly = true;
-            this.dgv_Leitores.RowHeadersWidth = 51;
-            this.dgv_Leitores.RowTemplate.Height = 24;
-            this.dgv_Leitores.Size = new System.Drawing.Size(963, 461);
-            this.dgv_Leitores.TabIndex = 18;
+            this.dgv_Emprestimos.AllowUserToAddRows = false;
+            this.dgv_Emprestimos.AllowUserToDeleteRows = false;
+            this.dgv_Emprestimos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Emprestimos.Location = new System.Drawing.Point(15, 83);
+            this.dgv_Emprestimos.Name = "dgv_Emprestimos";
+            this.dgv_Emprestimos.ReadOnly = true;
+            this.dgv_Emprestimos.RowHeadersWidth = 51;
+            this.dgv_Emprestimos.RowTemplate.Height = 24;
+            this.dgv_Emprestimos.Size = new System.Drawing.Size(963, 461);
+            this.dgv_Emprestimos.TabIndex = 18;
             // 
             // F_Empretimos
             // 
@@ -112,18 +112,18 @@ namespace TCC
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
             this.ClientSize = new System.Drawing.Size(990, 556);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.btn_Excluir);
+            this.Controls.Add(this.btn_Alterar);
+            this.Controls.Add(this.lbl);
+            this.Controls.Add(this.cb_Busca);
             this.Controls.Add(this.btn_Cadastrar);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dgv_Leitores);
+            this.Controls.Add(this.tb_Busca);
+            this.Controls.Add(this.dgv_Emprestimos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F_Empretimos";
             this.Text = "F_Empretimos";
             this.Load += new System.EventHandler(this.F_Empretimos_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_Leitores)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Emprestimos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,12 +131,12 @@ namespace TCC
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btn_Excluir;
+        private System.Windows.Forms.Button btn_Alterar;
+        private System.Windows.Forms.Label lbl;
+        private System.Windows.Forms.ComboBox cb_Busca;
         private System.Windows.Forms.Button btn_Cadastrar;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dgv_Leitores;
+        private System.Windows.Forms.TextBox tb_Busca;
+        private System.Windows.Forms.DataGridView dgv_Emprestimos;
     }
 }

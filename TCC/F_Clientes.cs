@@ -20,10 +20,10 @@ namespace TCC
 
         private void F_Clientes_Load(object sender, EventArgs e)
         {
-            dgv_Leitores.DataSource = Leitores();
-            if((bool)(comboBox1.SelectedItem = true))
+            dgv_Clientes.DataSource = Leitores();
+            if((bool)(cb_Busca.SelectedItem = false))
             {
-                textBox1.Visible = true;
+                tb_Busca.Visible = true;
             }
         }
 
@@ -37,13 +37,13 @@ namespace TCC
         {
             DataTable dt = new DataTable();
 
-            dt = (DataTable)dgv_Leitores.DataSource;
+            dt = (DataTable)dgv_Clientes.DataSource;
 
             System.Console.WriteLine("Teste dt>" + dt.Columns.Count);
-            System.Console.WriteLine("Teste grid>" + dgv_Leitores.Columns.Count);
+            System.Console.WriteLine("Teste grid>" + dgv_Clientes.Columns.Count);
 
-            string colunaSelecionada = comboBox1.SelectedItem.ToString();
-            string valorBusca = textBox1.Text;
+            string colunaSelecionada = cb_Busca.SelectedItem.ToString();
+            string valorBusca = tb_Busca.Text;
 
             dt.DefaultView.RowFilter = $"{colunaSelecionada} like '%{valorBusca}%'";
         }
@@ -69,7 +69,7 @@ namespace TCC
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            textBox1.Clear();
+            tb_Busca.Clear();
         }
     }
 }

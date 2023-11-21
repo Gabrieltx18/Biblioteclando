@@ -49,7 +49,12 @@ namespace TCC
             // 
             this.cb_Busca.FormattingEnabled = true;
             this.cb_Busca.Items.AddRange(new object[] {
-            "Título"});
+            "Título",
+            "Autor",
+            "Genero",
+            "Editora",
+            "Paginas",
+            "Data de Publicação"});
             this.cb_Busca.Location = new System.Drawing.Point(96, 30);
             this.cb_Busca.Name = "cb_Busca";
             this.cb_Busca.Size = new System.Drawing.Size(121, 24);
@@ -68,7 +73,7 @@ namespace TCC
             this.dgv_Livros.AllowUserToAddRows = false;
             this.dgv_Livros.AllowUserToDeleteRows = false;
             this.dgv_Livros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_Livros.Location = new System.Drawing.Point(12, 80);
+            this.dgv_Livros.Location = new System.Drawing.Point(12, 79);
             this.dgv_Livros.Name = "dgv_Livros";
             this.dgv_Livros.ReadOnly = true;
             this.dgv_Livros.RowHeadersWidth = 51;
@@ -80,11 +85,13 @@ namespace TCC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(980, 549);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
+            this.ClientSize = new System.Drawing.Size(990, 556);
             this.Controls.Add(this.lbl_Busca);
             this.Controls.Add(this.cb_Busca);
             this.Controls.Add(this.tb_Busca);
             this.Controls.Add(this.dgv_Livros);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F_Livros_Funcionarios";
             this.Text = "F_Livros_Funcionarios";
             this.Load += new System.EventHandler(this.F_Livros_Funcionarios_Load);

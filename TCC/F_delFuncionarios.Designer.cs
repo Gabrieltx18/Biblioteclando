@@ -37,7 +37,7 @@ namespace TCC
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 142);
+            this.label1.Location = new System.Drawing.Point(12, 126);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(182, 17);
             this.label1.TabIndex = 0;
@@ -45,7 +45,7 @@ namespace TCC
             // 
             // tb_ID
             // 
-            this.tb_ID.Location = new System.Drawing.Point(196, 142);
+            this.tb_ID.Location = new System.Drawing.Point(200, 126);
             this.tb_ID.Name = "tb_ID";
             this.tb_ID.Size = new System.Drawing.Size(167, 22);
             this.tb_ID.TabIndex = 1;
@@ -64,6 +64,7 @@ namespace TCC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
             this.ClientSize = new System.Drawing.Size(523, 285);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tb_ID);

@@ -61,7 +61,12 @@ namespace TCC
             // 
             this.cb_Busca.FormattingEnabled = true;
             this.cb_Busca.Items.AddRange(new object[] {
-            "Título"});
+            "Título",
+            "Autor",
+            "Genero",
+            "Editora",
+            "Paginas",
+            "Data de Publicação"});
             this.cb_Busca.Location = new System.Drawing.Point(99, 33);
             this.cb_Busca.Name = "cb_Busca";
             this.cb_Busca.Size = new System.Drawing.Size(121, 24);

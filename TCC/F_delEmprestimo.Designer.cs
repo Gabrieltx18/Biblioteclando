@@ -71,9 +71,9 @@ namespace TCC
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(212, 257);
+            this.button1.Location = new System.Drawing.Point(230, 257);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 23);
+            this.button1.Size = new System.Drawing.Size(106, 30);
             this.button1.TabIndex = 4;
             this.button1.Text = "Consultar";
             this.button1.UseVisualStyleBackColor = true;
@@ -81,9 +81,9 @@ namespace TCC
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(327, 257);
+            this.button2.Location = new System.Drawing.Point(354, 257);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 23);
+            this.button2.Size = new System.Drawing.Size(106, 30);
             this.button2.TabIndex = 5;
             this.button2.Text = "Excluir";
             this.button2.UseVisualStyleBackColor = true;
@@ -102,6 +102,7 @@ namespace TCC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
             this.ClientSize = new System.Drawing.Size(472, 299);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);

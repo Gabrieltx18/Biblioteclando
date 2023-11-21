@@ -40,7 +40,7 @@ namespace TCC
                         F_MenuAdm f_ = new F_MenuAdm();
                         f_.Show();
                         break;
-                    case "bibliotecario":
+                    case "Bibliotecário":
                         F_MenuFuncionario f_MenuFuncionario = new F_MenuFuncionario();
                         f_MenuFuncionario.Show();
                         break;

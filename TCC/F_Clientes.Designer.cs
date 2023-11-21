@@ -56,7 +56,6 @@ namespace TCC
             this.tb_Busca.Name = "tb_Busca";
             this.tb_Busca.Size = new System.Drawing.Size(258, 22);
             this.tb_Busca.TabIndex = 1;
-            this.tb_Busca.Visible = false;
             this.tb_Busca.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btn_Cadastrar

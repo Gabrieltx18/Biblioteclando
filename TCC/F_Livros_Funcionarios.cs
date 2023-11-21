@@ -11,33 +11,33 @@ using MySql.Data.MySqlClient;
 
 namespace TCC
 {
-    public partial class F_Empretimos : Form
+    public partial class F_Livros_Funcionarios : Form
     {
-        public F_Empretimos()
+        public F_Livros_Funcionarios()
         {
             InitializeComponent();
         }
 
-        private void F_Empretimos_Load(object sender, EventArgs e)
+        private void F_Livros_Funcionarios_Load(object sender, EventArgs e)
         {
-            dgv_Emprestimos.DataSource = Emprestimos();
+            dgv_Livros.DataSource = Livros();
         }
 
         private void tb_Busca_TextChanged(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
 
-            dt = (DataTable)dgv_Emprestimos.DataSource;
+            dt = (DataTable)dgv_Livros.DataSource;
 
             System.Console.WriteLine("Teste dt>" + dt.Columns.Count);
-            System.Console.WriteLine("Teste grid>" + dgv_Emprestimos.Columns.Count);
+            System.Console.WriteLine("Teste grid>" + dgv_Livros.Columns.Count);
 
             string colunaSelecionada = cb_Busca.SelectedItem.ToString();
             string valorBusca = tb_Busca.Text;
 
             dt.DefaultView.RowFilter = $"{colunaSelecionada} like '%{valorBusca}%'";
         }
-        public static DataTable Emprestimos()
+        public static DataTable Livros()
         {
             MySqlDataAdapter data = null;
             DataTable dt = new DataTable();
@@ -45,7 +45,7 @@ namespace TCC
             {
                 using (var cmd = Banco.conexaobanco().CreateCommand())
                 {
-                    cmd.CommandText = "SELECT * FROM tbEmprestimo";
+                    cmd.CommandText = "SELECT * FROM vwLivrosDetalhes";
                     data = new MySqlDataAdapter(cmd.CommandText, Banco.conexaobanco());
                     data.Fill(dt);
                     return dt;
@@ -55,24 +55,6 @@ namespace TCC
             {
                 throw ex;
             }
-        }
-
-        private void btn_Cadastrar_Click(object sender, EventArgs e)
-        {
-            F_adcEmpretimo f_Adc = new F_adcEmpretimo();
-            f_Adc.Show();
-        }
-
-        private void btn_Excluir_Click(object sender, EventArgs e)
-        {
-            F_delEmprestimo f_Del = new F_delEmprestimo();
-            f_Del.Show();
-        }
-
-        private void btn_Alterar_Click(object sender, EventArgs e)
-        {
-            F_updEmpretimo f_Upd = new F_updEmpretimo();
-            f_Upd.Show();
         }
     }
 }

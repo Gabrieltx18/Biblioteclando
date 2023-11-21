@@ -21,10 +21,6 @@ namespace TCC
         private void F_Clientes_Load(object sender, EventArgs e)
         {
             dgv_Clientes.DataSource = Leitores();
-            if((bool)(cb_Busca.SelectedItem = false))
-            {
-                tb_Busca.Visible = true;
-            }
         }
 
         private void btn_Cadastrar_Click(object sender, EventArgs e)

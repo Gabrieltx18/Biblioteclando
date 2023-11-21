@@ -69,7 +69,8 @@ namespace TCC
 
         private void btn_Excluir_Click(object sender, EventArgs e)
         {
-
+            F_delLivro f_Del = new F_delLivro();
+            f_Del.Show();
         }
     }
 }

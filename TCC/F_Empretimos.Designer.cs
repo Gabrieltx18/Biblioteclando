@@ -47,6 +47,7 @@ namespace TCC
             this.btn_Excluir.TabIndex = 24;
             this.btn_Excluir.Text = "Excluir";
             this.btn_Excluir.UseVisualStyleBackColor = true;
+            this.btn_Excluir.Click += new System.EventHandler(this.btn_Excluir_Click);
             // 
             // btn_Alterar
             // 
@@ -56,6 +57,7 @@ namespace TCC
             this.btn_Alterar.TabIndex = 23;
             this.btn_Alterar.Text = "Alterar";
             this.btn_Alterar.UseVisualStyleBackColor = true;
+            this.btn_Alterar.Click += new System.EventHandler(this.btn_Alterar_Click);
             // 
             // lbl
             // 
@@ -85,6 +87,7 @@ namespace TCC
             this.btn_Cadastrar.TabIndex = 20;
             this.btn_Cadastrar.Text = "Cadastrar";
             this.btn_Cadastrar.UseVisualStyleBackColor = true;
+            this.btn_Cadastrar.Click += new System.EventHandler(this.btn_Cadastrar_Click);
             // 
             // tb_Busca
             // 
@@ -92,6 +95,7 @@ namespace TCC
             this.tb_Busca.Name = "tb_Busca";
             this.tb_Busca.Size = new System.Drawing.Size(258, 22);
             this.tb_Busca.TabIndex = 19;
+            this.tb_Busca.TextChanged += new System.EventHandler(this.tb_Busca_TextChanged);
             // 
             // dgv_Emprestimos
             // 

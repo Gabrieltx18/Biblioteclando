@@ -47,30 +47,18 @@ namespace TCC
             {
                 var cmd = Banco.conexaobanco().CreateCommand();
                 {
-                    cmd.CommandText = "INSERT INTO tbLivro(ISBN, título, descrição, data_publicacao, Número_de_páginas)" +
-                   " VALUES(@ISBN, @TITULO, @DESCRIÇÃO, @DATA, @PAGINAS)";
+                    cmd.CommandText = "INSERT INTO tbLivro(ISBN, título, descrição, data_publicacao, Número_de_páginas) VALUES(@ISBN, @TITULO, @DESCRICAO, @DATA, @PAGINAS); " +
+                                          "INSERT INTO tbAutor (Nome_Autor) VALUES (@AUTOR);" +
+                                          "INSERT INTO tbEditora (nome) VALUES (@EDITORA);" +
+                                          "INSERT INTO tbGenero (nome_genero) VALUES (@GENERO);";
+
                     cmd.Parameters.AddWithValue("@ISBN", u.isbn);
                     cmd.Parameters.AddWithValue("@TITULO", u.titulo);
-                    cmd.Parameters.AddWithValue("@DESCRIÇÃO", u.descricao);
+                    cmd.Parameters.AddWithValue("@DESCRICAO", u.descricao);
                     cmd.Parameters.AddWithValue("@DATA", u.data);
                     cmd.Parameters.AddWithValue("@PAGINAS", u.paginas);
-                    cmd.ExecuteNonQuery();
-
-                    
-                    cmd.CommandText = "INSERT INTO tbAutor(Nome_Autor) VALUES(@AUTOR)";
-                    cmd.Parameters.Clear();
                     cmd.Parameters.AddWithValue("@AUTOR", u.autor);
-                    cmd.ExecuteNonQuery();
-
-                    
-                    cmd.CommandText = "INSERT INTO tbEditora(nome) VALUES(@EDITORA)";
-                    cmd.Parameters.Clear();
                     cmd.Parameters.AddWithValue("@EDITORA", u.editora);
-                    cmd.ExecuteNonQuery();
-
-                    
-                    cmd.CommandText = "INSERT INTO tbGenero(nome_genero) VALUES(@GENERO)";
-                    cmd.Parameters.Clear();
                     cmd.Parameters.AddWithValue("@GENERO", u.genero);
                     cmd.ExecuteNonQuery();
                 }

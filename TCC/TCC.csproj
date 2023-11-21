@@ -99,6 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banco.cs" />
+    <Compile Include="F_adcEmpretimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_adcEmpretimo.Designer.cs">
+      <DependentUpon>F_adcEmpretimo.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_adcFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,11 +129,23 @@
     <Compile Include="F_Clientes.Designer.cs">
       <DependentUpon>F_Clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_delEmprestimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_delEmprestimo.Designer.cs">
+      <DependentUpon>F_delEmprestimo.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_delFuncionarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_delFuncionarios.Designer.cs">
       <DependentUpon>F_delFuncionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_delLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_delLivro.Designer.cs">
+      <DependentUpon>F_delLivro.cs</DependentUpon>
     </Compile>
     <Compile Include="F_Empretimos.cs">
       <SubType>Form</SubType>
@@ -147,6 +165,12 @@
     <Compile Include="F_Livros.Designer.cs">
       <DependentUpon>F_Livros.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_Livros_Funcionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Livros_Funcionarios.Designer.cs">
+      <DependentUpon>F_Livros_Funcionarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_MenuAdm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,14 +183,29 @@
     <Compile Include="F_Login.Designer.cs">
       <DependentUpon>F_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_MenuFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_MenuFuncionario.Designer.cs">
+      <DependentUpon>F_MenuFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Relatorio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_Relatorio.Designer.cs">
       <DependentUpon>F_Relatorio.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_updEmpretimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_updEmpretimo.Designer.cs">
+      <DependentUpon>F_updEmpretimo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="F_adcEmpretimo.resx">
+      <DependentUpon>F_adcEmpretimo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_adcFuncionario.resx">
       <DependentUpon>F_adcFuncionario.cs</DependentUpon>
     </EmbeddedResource>
@@ -179,8 +218,14 @@
     <EmbeddedResource Include="F_Clientes.resx">
       <DependentUpon>F_Clientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_delEmprestimo.resx">
+      <DependentUpon>F_delEmprestimo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_delFuncionarios.resx">
       <DependentUpon>F_delFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_delLivro.resx">
+      <DependentUpon>F_delLivro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_Empretimos.resx">
       <DependentUpon>F_Empretimos.cs</DependentUpon>
@@ -191,14 +236,23 @@
     <EmbeddedResource Include="F_Livros.resx">
       <DependentUpon>F_Livros.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_Livros_Funcionarios.resx">
+      <DependentUpon>F_Livros_Funcionarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_MenuAdm.resx">
       <DependentUpon>F_MenuAdm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_Login.resx">
       <DependentUpon>F_Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_MenuFuncionario.resx">
+      <DependentUpon>F_MenuFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_Relatorio.resx">
       <DependentUpon>F_Relatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_updEmpretimo.resx">
+      <DependentUpon>F_updEmpretimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

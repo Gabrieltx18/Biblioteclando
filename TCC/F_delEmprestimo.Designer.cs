@@ -40,7 +40,7 @@ namespace TCC
             // 
             // tbIdEmprestimo
             // 
-            this.tbIdEmprestimo.Location = new System.Drawing.Point(178, 89);
+            this.tbIdEmprestimo.Location = new System.Drawing.Point(251, 25);
             this.tbIdEmprestimo.Name = "tbIdEmprestimo";
             this.tbIdEmprestimo.Size = new System.Drawing.Size(100, 22);
             this.tbIdEmprestimo.TabIndex = 0;
@@ -48,29 +48,35 @@ namespace TCC
             // lblDataEmprestimo
             // 
             this.lblDataEmprestimo.AutoSize = true;
-            this.lblDataEmprestimo.Location = new System.Drawing.Point(13, 139);
+            this.lblDataEmprestimo.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.lblDataEmprestimo.Location = new System.Drawing.Point(12, 85);
             this.lblDataEmprestimo.Name = "lblDataEmprestimo";
-            this.lblDataEmprestimo.Size = new System.Drawing.Size(0, 17);
+            this.lblDataEmprestimo.Size = new System.Drawing.Size(0, 45);
             this.lblDataEmprestimo.TabIndex = 1;
             // 
             // lblDataDevolucao
             // 
             this.lblDataDevolucao.AutoSize = true;
-            this.lblDataDevolucao.Location = new System.Drawing.Point(13, 169);
+            this.lblDataDevolucao.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.lblDataDevolucao.Location = new System.Drawing.Point(12, 115);
             this.lblDataDevolucao.Name = "lblDataDevolucao";
-            this.lblDataDevolucao.Size = new System.Drawing.Size(0, 17);
+            this.lblDataDevolucao.Size = new System.Drawing.Size(0, 45);
             this.lblDataDevolucao.TabIndex = 2;
             // 
             // lblMulta
             // 
             this.lblMulta.AutoSize = true;
-            this.lblMulta.Location = new System.Drawing.Point(13, 200);
+            this.lblMulta.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.lblMulta.Location = new System.Drawing.Point(12, 146);
             this.lblMulta.Name = "lblMulta";
-            this.lblMulta.Size = new System.Drawing.Size(0, 17);
+            this.lblMulta.Size = new System.Drawing.Size(0, 45);
             this.lblMulta.TabIndex = 3;
             // 
             // button1
             // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.button1.Location = new System.Drawing.Point(230, 257);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 30);
@@ -81,6 +87,9 @@ namespace TCC
             // 
             // button2
             // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.button2.Location = new System.Drawing.Point(354, 257);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(106, 30);
@@ -92,9 +101,10 @@ namespace TCC
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 89);
+            this.label1.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.label1.Location = new System.Drawing.Point(1, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 17);
+            this.label1.Size = new System.Drawing.Size(229, 45);
             this.label1.TabIndex = 6;
             this.label1.Text = "Numero do emprestimo:";
             // 

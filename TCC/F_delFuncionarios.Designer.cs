@@ -37,21 +37,25 @@ namespace TCC
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 126);
+            this.label1.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.label1.Location = new System.Drawing.Point(12, 115);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 17);
+            this.label1.Size = new System.Drawing.Size(265, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Informe o ID do funcionario:";
             // 
             // tb_ID
             // 
-            this.tb_ID.Location = new System.Drawing.Point(200, 126);
+            this.tb_ID.Location = new System.Drawing.Point(296, 124);
             this.tb_ID.Name = "tb_ID";
             this.tb_ID.Size = new System.Drawing.Size(167, 22);
             this.tb_ID.TabIndex = 1;
             // 
             // button1
             // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.button1.Location = new System.Drawing.Point(389, 241);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 32);

@@ -51,85 +51,88 @@ namespace TCC
             // lbl_ISBN
             // 
             this.lbl_ISBN.AutoSize = true;
-            this.lbl_ISBN.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ISBN.Font = new System.Drawing.Font("Javanese Text", 12F);
             this.lbl_ISBN.Location = new System.Drawing.Point(42, 58);
             this.lbl_ISBN.Name = "lbl_ISBN";
-            this.lbl_ISBN.Size = new System.Drawing.Size(69, 29);
+            this.lbl_ISBN.Size = new System.Drawing.Size(67, 45);
             this.lbl_ISBN.TabIndex = 0;
             this.lbl_ISBN.Text = "ISBN";
             // 
             // lbl_Titulo
             // 
             this.lbl_Titulo.AutoSize = true;
-            this.lbl_Titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Titulo.Font = new System.Drawing.Font("Javanese Text", 12F);
             this.lbl_Titulo.Location = new System.Drawing.Point(42, 92);
             this.lbl_Titulo.Name = "lbl_Titulo";
-            this.lbl_Titulo.Size = new System.Drawing.Size(74, 29);
+            this.lbl_Titulo.Size = new System.Drawing.Size(73, 45);
             this.lbl_Titulo.TabIndex = 1;
             this.lbl_Titulo.Text = "Titulo";
             // 
             // lbl_Data
             // 
             this.lbl_Data.AutoSize = true;
-            this.lbl_Data.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Data.Location = new System.Drawing.Point(44, 258);
+            this.lbl_Data.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.lbl_Data.Location = new System.Drawing.Point(43, 263);
             this.lbl_Data.Name = "lbl_Data";
-            this.lbl_Data.Size = new System.Drawing.Size(219, 29);
+            this.lbl_Data.Size = new System.Drawing.Size(186, 45);
             this.lbl_Data.TabIndex = 2;
             this.lbl_Data.Text = "Data de publicação";
             // 
             // lbl_paginas
             // 
             this.lbl_paginas.AutoSize = true;
-            this.lbl_paginas.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_paginas.Location = new System.Drawing.Point(42, 292);
+            this.lbl_paginas.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.lbl_paginas.Location = new System.Drawing.Point(42, 298);
             this.lbl_paginas.Name = "lbl_paginas";
-            this.lbl_paginas.Size = new System.Drawing.Size(225, 29);
+            this.lbl_paginas.Size = new System.Drawing.Size(187, 45);
             this.lbl_paginas.TabIndex = 3;
             this.lbl_paginas.Text = "Numero de paginas";
             // 
             // lbl_Descrição
             // 
             this.lbl_Descrição.AutoSize = true;
-            this.lbl_Descrição.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Descrição.Font = new System.Drawing.Font("Javanese Text", 12F);
             this.lbl_Descrição.Location = new System.Drawing.Point(45, 130);
             this.lbl_Descrição.Name = "lbl_Descrição";
-            this.lbl_Descrição.Size = new System.Drawing.Size(121, 29);
+            this.lbl_Descrição.Size = new System.Drawing.Size(105, 45);
             this.lbl_Descrição.TabIndex = 4;
             this.lbl_Descrição.Text = "Descrição";
             // 
             // lbl_Editora
             // 
             this.lbl_Editora.AutoSize = true;
-            this.lbl_Editora.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Editora.Font = new System.Drawing.Font("Javanese Text", 12F);
             this.lbl_Editora.Location = new System.Drawing.Point(46, 230);
             this.lbl_Editora.Name = "lbl_Editora";
-            this.lbl_Editora.Size = new System.Drawing.Size(90, 29);
+            this.lbl_Editora.Size = new System.Drawing.Size(85, 45);
             this.lbl_Editora.TabIndex = 5;
             this.lbl_Editora.Text = "Editora";
             // 
             // lbl_Genero
             // 
             this.lbl_Genero.AutoSize = true;
-            this.lbl_Genero.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Genero.Font = new System.Drawing.Font("Javanese Text", 12F);
             this.lbl_Genero.Location = new System.Drawing.Point(45, 166);
             this.lbl_Genero.Name = "lbl_Genero";
-            this.lbl_Genero.Size = new System.Drawing.Size(94, 29);
+            this.lbl_Genero.Size = new System.Drawing.Size(84, 45);
             this.lbl_Genero.TabIndex = 6;
             this.lbl_Genero.Text = "Genero";
             // 
             // lbl_Autor
             // 
             this.lbl_Autor.AutoSize = true;
-            this.lbl_Autor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Autor.Font = new System.Drawing.Font("Javanese Text", 12F);
             this.lbl_Autor.Location = new System.Drawing.Point(46, 195);
             this.lbl_Autor.Name = "lbl_Autor";
-            this.lbl_Autor.Size = new System.Drawing.Size(69, 29);
+            this.lbl_Autor.Size = new System.Drawing.Size(70, 45);
             this.lbl_Autor.TabIndex = 7;
             this.lbl_Autor.Text = "Autor";
             // 
             // btn_Cadastrar
             // 
+            this.btn_Cadastrar.FlatAppearance.BorderSize = 0;
+            this.btn_Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Cadastrar.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.btn_Cadastrar.Location = new System.Drawing.Point(574, 358);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
             this.btn_Cadastrar.Size = new System.Drawing.Size(132, 37);
@@ -140,35 +143,35 @@ namespace TCC
             // 
             // tb_ISBN
             // 
-            this.tb_ISBN.Location = new System.Drawing.Point(117, 62);
+            this.tb_ISBN.Location = new System.Drawing.Point(115, 67);
             this.tb_ISBN.Name = "tb_ISBN";
             this.tb_ISBN.Size = new System.Drawing.Size(233, 22);
             this.tb_ISBN.TabIndex = 9;
             // 
             // tb_Editora
             // 
-            this.tb_Editora.Location = new System.Drawing.Point(146, 232);
+            this.tb_Editora.Location = new System.Drawing.Point(137, 238);
             this.tb_Editora.Name = "tb_Editora";
             this.tb_Editora.Size = new System.Drawing.Size(233, 22);
             this.tb_Editora.TabIndex = 11;
             // 
             // tb_Autor
             // 
-            this.tb_Autor.Location = new System.Drawing.Point(121, 202);
+            this.tb_Autor.Location = new System.Drawing.Point(122, 205);
             this.tb_Autor.Name = "tb_Autor";
             this.tb_Autor.Size = new System.Drawing.Size(233, 22);
             this.tb_Autor.TabIndex = 12;
             // 
             // tb_Genero
             // 
-            this.tb_Genero.Location = new System.Drawing.Point(145, 173);
+            this.tb_Genero.Location = new System.Drawing.Point(135, 175);
             this.tb_Genero.Name = "tb_Genero";
             this.tb_Genero.Size = new System.Drawing.Size(233, 22);
             this.tb_Genero.TabIndex = 13;
             // 
             // tb_Descrição
             // 
-            this.tb_Descrição.Location = new System.Drawing.Point(163, 134);
+            this.tb_Descrição.Location = new System.Drawing.Point(156, 139);
             this.tb_Descrição.Multiline = true;
             this.tb_Descrição.Name = "tb_Descrição";
             this.tb_Descrição.Size = new System.Drawing.Size(277, 22);
@@ -176,21 +179,21 @@ namespace TCC
             // 
             // tb_Titulo
             // 
-            this.tb_Titulo.Location = new System.Drawing.Point(117, 96);
+            this.tb_Titulo.Location = new System.Drawing.Point(121, 101);
             this.tb_Titulo.Name = "tb_Titulo";
             this.tb_Titulo.Size = new System.Drawing.Size(268, 22);
             this.tb_Titulo.TabIndex = 15;
             // 
             // tb_Paginas
             // 
-            this.tb_Paginas.Location = new System.Drawing.Point(269, 298);
+            this.tb_Paginas.Location = new System.Drawing.Point(235, 307);
             this.tb_Paginas.Name = "tb_Paginas";
             this.tb_Paginas.Size = new System.Drawing.Size(233, 22);
             this.tb_Paginas.TabIndex = 16;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(269, 263);
+            this.dateTimePicker1.Location = new System.Drawing.Point(235, 270);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker1.TabIndex = 17;

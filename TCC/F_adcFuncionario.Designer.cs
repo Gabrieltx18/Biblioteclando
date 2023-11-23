@@ -44,40 +44,40 @@ namespace TCC
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(34, 85);
+            this.label1.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.label1.Location = new System.Drawing.Point(34, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 29);
+            this.label1.Size = new System.Drawing.Size(71, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nome";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(34, 137);
+            this.label2.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.label2.Location = new System.Drawing.Point(34, 135);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 29);
+            this.label2.Size = new System.Drawing.Size(73, 45);
             this.label2.TabIndex = 1;
             this.label2.Text = "Senha";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(38, 249);
+            this.label3.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.label3.Location = new System.Drawing.Point(34, 247);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 29);
+            this.label3.Size = new System.Drawing.Size(109, 45);
             this.label3.TabIndex = 2;
             this.label3.Text = "Adimissão";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(37, 192);
+            this.label4.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.label4.Location = new System.Drawing.Point(34, 188);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 29);
+            this.label4.Size = new System.Drawing.Size(71, 45);
             this.label4.TabIndex = 3;
             this.label4.Text = "Cargo";
             // 
@@ -85,7 +85,7 @@ namespace TCC
             // 
             this.btn_senha.Location = new System.Drawing.Point(321, 144);
             this.btn_senha.Name = "btn_senha";
-            this.btn_senha.Size = new System.Drawing.Size(103, 23);
+            this.btn_senha.Size = new System.Drawing.Size(103, 22);
             this.btn_senha.TabIndex = 4;
             this.btn_senha.Text = "Gerar Senha";
             this.btn_senha.UseVisualStyleBackColor = true;
@@ -93,6 +93,9 @@ namespace TCC
             // 
             // btn_cadastrar
             // 
+            this.btn_cadastrar.FlatAppearance.BorderSize = 0;
+            this.btn_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cadastrar.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.btn_cadastrar.Location = new System.Drawing.Point(574, 358);
             this.btn_cadastrar.Name = "btn_cadastrar";
             this.btn_cadastrar.Size = new System.Drawing.Size(132, 37);
@@ -122,14 +125,14 @@ namespace TCC
             "Gerente",
             "Auxiliar",
             "Bibliotecario"});
-            this.cb_cargo.Location = new System.Drawing.Point(122, 197);
+            this.cb_cargo.Location = new System.Drawing.Point(119, 197);
             this.cb_cargo.Name = "cb_cargo";
             this.cb_cargo.Size = new System.Drawing.Size(121, 24);
             this.cb_cargo.TabIndex = 8;
             // 
             // dt_adimissão
             // 
-            this.dt_adimissão.Location = new System.Drawing.Point(169, 254);
+            this.dt_adimissão.Location = new System.Drawing.Point(149, 254);
             this.dt_adimissão.Name = "dt_adimissão";
             this.dt_adimissão.Size = new System.Drawing.Size(200, 22);
             this.dt_adimissão.TabIndex = 9;

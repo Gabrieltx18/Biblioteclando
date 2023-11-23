@@ -52,7 +52,7 @@ namespace TCC
             // 
             // tb_Busca
             // 
-            this.tb_Busca.Location = new System.Drawing.Point(226, 33);
+            this.tb_Busca.Location = new System.Drawing.Point(260, 33);
             this.tb_Busca.Name = "tb_Busca";
             this.tb_Busca.Size = new System.Drawing.Size(258, 22);
             this.tb_Busca.TabIndex = 1;
@@ -60,6 +60,9 @@ namespace TCC
             // 
             // btn_Cadastrar
             // 
+            this.btn_Cadastrar.FlatAppearance.BorderSize = 0;
+            this.btn_Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Cadastrar.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.btn_Cadastrar.Location = new System.Drawing.Point(878, 12);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
             this.btn_Cadastrar.Size = new System.Drawing.Size(100, 65);
@@ -75,7 +78,7 @@ namespace TCC
             "Nome",
             "CPF",
             "Telefone"});
-            this.cb_Busca.Location = new System.Drawing.Point(99, 33);
+            this.cb_Busca.Location = new System.Drawing.Point(133, 33);
             this.cb_Busca.Name = "cb_Busca";
             this.cb_Busca.Size = new System.Drawing.Size(121, 24);
             this.cb_Busca.TabIndex = 7;
@@ -84,9 +87,10 @@ namespace TCC
             // lbl_Busca
             // 
             this.lbl_Busca.AutoSize = true;
-            this.lbl_Busca.Location = new System.Drawing.Point(12, 36);
+            this.lbl_Busca.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.lbl_Busca.Location = new System.Drawing.Point(7, 24);
             this.lbl_Busca.Name = "lbl_Busca";
-            this.lbl_Busca.Size = new System.Drawing.Size(81, 17);
+            this.lbl_Busca.Size = new System.Drawing.Size(120, 45);
             this.lbl_Busca.TabIndex = 8;
             this.lbl_Busca.Text = "Buscar por:";
             // 

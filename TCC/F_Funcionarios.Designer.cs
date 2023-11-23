@@ -40,6 +40,9 @@ namespace TCC
             // 
             // btn_Excluir
             // 
+            this.btn_Excluir.FlatAppearance.BorderSize = 0;
+            this.btn_Excluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Excluir.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.btn_Excluir.Location = new System.Drawing.Point(878, 12);
             this.btn_Excluir.Name = "btn_Excluir";
             this.btn_Excluir.Size = new System.Drawing.Size(100, 65);
@@ -70,6 +73,9 @@ namespace TCC
             // 
             // btn_Cadastrar
             // 
+            this.btn_Cadastrar.FlatAppearance.BorderSize = 0;
+            this.btn_Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Cadastrar.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.btn_Cadastrar.Location = new System.Drawing.Point(772, 12);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
             this.btn_Cadastrar.Size = new System.Drawing.Size(100, 65);

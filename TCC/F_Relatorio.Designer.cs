@@ -86,6 +86,9 @@ namespace TCC
             // 
             // btn_GerarRelatorio
             // 
+            this.btn_GerarRelatorio.FlatAppearance.BorderSize = 0;
+            this.btn_GerarRelatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_GerarRelatorio.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.btn_GerarRelatorio.Location = new System.Drawing.Point(28, 464);
             this.btn_GerarRelatorio.Name = "btn_GerarRelatorio";
             this.btn_GerarRelatorio.Size = new System.Drawing.Size(147, 50);

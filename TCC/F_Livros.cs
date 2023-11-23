@@ -21,10 +21,6 @@ namespace TCC
         private void F_Livros_Load(object sender, EventArgs e)
         {
             dgv_Livros.DataSource = Livros();
-            if ((bool)(cb_Busca.SelectedItem = true))
-            {
-                tb_Busca.Visible = true;
-            }
         }
 
         private void tb_Busca_TextChanged(object sender, EventArgs e)
@@ -49,7 +45,7 @@ namespace TCC
             {
                 using (var cmd = Banco.conexaobanco().CreateCommand())
                 {
-                    cmd.CommandText = "SELECT * FROM vwLivrosDetalhes";
+                    cmd.CommandText = "SELECT * FROM tbLivro";
                     data = new MySqlDataAdapter(cmd.CommandText, Banco.conexaobanco());
                     data.Fill(dt);
                     return dt;

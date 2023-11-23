@@ -36,6 +36,9 @@ namespace TCC
             // 
             // button1
             // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.button1.Location = new System.Drawing.Point(389, 241);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 32);
@@ -46,7 +49,7 @@ namespace TCC
             // 
             // tb_ID
             // 
-            this.tb_ID.Location = new System.Drawing.Point(133, 126);
+            this.tb_ID.Location = new System.Drawing.Point(216, 135);
             this.tb_ID.Name = "tb_ID";
             this.tb_ID.Size = new System.Drawing.Size(167, 22);
             this.tb_ID.TabIndex = 4;
@@ -54,9 +57,10 @@ namespace TCC
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Javanese Text", 12F);
             this.label1.Location = new System.Drawing.Point(9, 126);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 17);
+            this.label1.Size = new System.Drawing.Size(181, 45);
             this.label1.TabIndex = 3;
             this.label1.Text = "Informe o ID livro:";
             // 

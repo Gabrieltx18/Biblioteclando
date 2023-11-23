@@ -112,13 +112,17 @@ namespace TCC
             // 
             this.dgv_Emprestimos.AllowUserToAddRows = false;
             this.dgv_Emprestimos.AllowUserToDeleteRows = false;
+            this.dgv_Emprestimos.AllowUserToResizeColumns = false;
+            this.dgv_Emprestimos.AllowUserToResizeRows = false;
             this.dgv_Emprestimos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
+            this.dgv_Emprestimos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dgv_Emprestimos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Emprestimos.Location = new System.Drawing.Point(15, 83);
             this.dgv_Emprestimos.Name = "dgv_Emprestimos";
             this.dgv_Emprestimos.ReadOnly = true;
             this.dgv_Emprestimos.RowHeadersWidth = 51;
             this.dgv_Emprestimos.RowTemplate.Height = 24;
+            this.dgv_Emprestimos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgv_Emprestimos.Size = new System.Drawing.Size(963, 461);
             this.dgv_Emprestimos.TabIndex = 18;
             this.dgv_Emprestimos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Emprestimos_CellContentClick);

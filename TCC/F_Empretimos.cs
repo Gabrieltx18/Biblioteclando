@@ -16,6 +16,7 @@ namespace TCC
         public F_Empretimos()
         {
             InitializeComponent();
+            
         }
 
         private void F_Empretimos_Load(object sender, EventArgs e)
@@ -73,6 +74,11 @@ namespace TCC
         {
             F_updEmpretimo f_Upd = new F_updEmpretimo();
             f_Upd.Show();
+        }
+
+        private void dgv_Emprestimos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -15,7 +15,7 @@ namespace TCC
 
         public static MySqlConnection conexaobanco()
         {
-            conexao = new MySqlConnection("Data Source=db4free.net;Database=biblioteclando1;Uid=biblioteclando01;Password=b&@24435_");
+            conexao = new MySqlConnection("Data Source=Localhost;Database=biblioteclando1;Uid=root;Password=");
             conexao.Open();
             return conexao;
         }

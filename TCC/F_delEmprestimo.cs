@@ -106,7 +106,7 @@ namespace TCC
 
                             if (diasAtrasoInt > 0)
                             {
-                                double multa = diasAtrasoInt * 1.0;
+                                double multa = diasAtrasoInt * 50.0;
                                 lblMulta.Text = $"Multa por atraso: R$ {multa:F2}";
                             }
                             else

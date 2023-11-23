@@ -41,6 +41,9 @@ namespace TCC
             // 
             // btn_Excluir
             // 
+            this.btn_Excluir.FlatAppearance.BorderSize = 0;
+            this.btn_Excluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Excluir.Font = new System.Drawing.Font("Javanese Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Excluir.Location = new System.Drawing.Point(761, 12);
             this.btn_Excluir.Name = "btn_Excluir";
             this.btn_Excluir.Size = new System.Drawing.Size(100, 65);
@@ -51,6 +54,9 @@ namespace TCC
             // 
             // btn_Alterar
             // 
+            this.btn_Alterar.FlatAppearance.BorderSize = 0;
+            this.btn_Alterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Alterar.Font = new System.Drawing.Font("Javanese Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Alterar.Location = new System.Drawing.Point(878, 12);
             this.btn_Alterar.Name = "btn_Alterar";
             this.btn_Alterar.Size = new System.Drawing.Size(100, 65);
@@ -62,9 +68,10 @@ namespace TCC
             // lbl
             // 
             this.lbl.AutoSize = true;
-            this.lbl.Location = new System.Drawing.Point(12, 36);
+            this.lbl.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl.Location = new System.Drawing.Point(9, 30);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(81, 17);
+            this.lbl.Size = new System.Drawing.Size(89, 34);
             this.lbl.TabIndex = 22;
             this.lbl.Text = "Buscar por:";
             // 
@@ -81,12 +88,16 @@ namespace TCC
             // 
             // btn_Cadastrar
             // 
+            this.btn_Cadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
+            this.btn_Cadastrar.FlatAppearance.BorderSize = 0;
+            this.btn_Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Cadastrar.Font = new System.Drawing.Font("Javanese Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Cadastrar.Location = new System.Drawing.Point(645, 12);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
-            this.btn_Cadastrar.Size = new System.Drawing.Size(100, 65);
+            this.btn_Cadastrar.Size = new System.Drawing.Size(110, 65);
             this.btn_Cadastrar.TabIndex = 20;
             this.btn_Cadastrar.Text = "Cadastrar";
-            this.btn_Cadastrar.UseVisualStyleBackColor = true;
+            this.btn_Cadastrar.UseVisualStyleBackColor = false;
             this.btn_Cadastrar.Click += new System.EventHandler(this.btn_Cadastrar_Click);
             // 
             // tb_Busca
@@ -101,6 +112,7 @@ namespace TCC
             // 
             this.dgv_Emprestimos.AllowUserToAddRows = false;
             this.dgv_Emprestimos.AllowUserToDeleteRows = false;
+            this.dgv_Emprestimos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
             this.dgv_Emprestimos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Emprestimos.Location = new System.Drawing.Point(15, 83);
             this.dgv_Emprestimos.Name = "dgv_Emprestimos";
@@ -109,6 +121,7 @@ namespace TCC
             this.dgv_Emprestimos.RowTemplate.Height = 24;
             this.dgv_Emprestimos.Size = new System.Drawing.Size(963, 461);
             this.dgv_Emprestimos.TabIndex = 18;
+            this.dgv_Emprestimos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Emprestimos_CellContentClick);
             // 
             // F_Empretimos
             // 

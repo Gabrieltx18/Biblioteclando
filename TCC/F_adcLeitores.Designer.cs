@@ -158,7 +158,7 @@ namespace TCC
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Name = "F_adcLeitores";
-            this.Text = "F_adcLeitores";
+            this.Text = "Cadastrar";
             this.ResumeLayout(false);
             this.PerformLayout();
 

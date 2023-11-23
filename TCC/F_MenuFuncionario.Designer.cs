@@ -125,7 +125,7 @@ namespace TCC
             this.Controls.Add(this.pn_form);
             this.Controls.Add(this.pn_Principal);
             this.Name = "F_MenuFuncionario";
-            this.Text = "F_MenuFuncionario";
+            this.Text = "Menu";
             this.Load += new System.EventHandler(this.F_MenuFuncionario_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

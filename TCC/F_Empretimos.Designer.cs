@@ -68,10 +68,10 @@ namespace TCC
             // lbl
             // 
             this.lbl.AutoSize = true;
-            this.lbl.Font = new System.Drawing.Font("Javanese Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl.Location = new System.Drawing.Point(9, 30);
+            this.lbl.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.lbl.Location = new System.Drawing.Point(12, 21);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(89, 34);
+            this.lbl.Size = new System.Drawing.Size(120, 45);
             this.lbl.TabIndex = 22;
             this.lbl.Text = "Buscar por:";
             // 
@@ -81,7 +81,7 @@ namespace TCC
             this.cb_Busca.Items.AddRange(new object[] {
             "Data de Emprestimo",
             "Previsão de Devolução"});
-            this.cb_Busca.Location = new System.Drawing.Point(99, 33);
+            this.cb_Busca.Location = new System.Drawing.Point(138, 30);
             this.cb_Busca.Name = "cb_Busca";
             this.cb_Busca.Size = new System.Drawing.Size(121, 24);
             this.cb_Busca.TabIndex = 21;
@@ -102,7 +102,7 @@ namespace TCC
             // 
             // tb_Busca
             // 
-            this.tb_Busca.Location = new System.Drawing.Point(226, 33);
+            this.tb_Busca.Location = new System.Drawing.Point(265, 32);
             this.tb_Busca.Name = "tb_Busca";
             this.tb_Busca.Size = new System.Drawing.Size(258, 22);
             this.tb_Busca.TabIndex = 19;
@@ -120,6 +120,7 @@ namespace TCC
             this.dgv_Emprestimos.Location = new System.Drawing.Point(15, 83);
             this.dgv_Emprestimos.Name = "dgv_Emprestimos";
             this.dgv_Emprestimos.ReadOnly = true;
+            this.dgv_Emprestimos.RowHeadersVisible = false;
             this.dgv_Emprestimos.RowHeadersWidth = 51;
             this.dgv_Emprestimos.RowTemplate.Height = 24;
             this.dgv_Emprestimos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;

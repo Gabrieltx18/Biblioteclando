@@ -49,7 +49,7 @@ namespace TCC
             // 
             // dt_emprestimo
             // 
-            this.dt_emprestimo.Location = new System.Drawing.Point(196, 186);
+            this.dt_emprestimo.Location = new System.Drawing.Point(207, 186);
             this.dt_emprestimo.Name = "dt_emprestimo";
             this.dt_emprestimo.Size = new System.Drawing.Size(200, 22);
             this.dt_emprestimo.TabIndex = 1;
@@ -137,7 +137,7 @@ namespace TCC
             this.Controls.Add(this.dt_emprestimo);
             this.Controls.Add(this.dt_devolucao);
             this.Name = "F_adcEmpretimo";
-            this.Text = "F_adcEmpretimo";
+            this.Text = "Cadastrar";
             this.ResumeLayout(false);
             this.PerformLayout();
 

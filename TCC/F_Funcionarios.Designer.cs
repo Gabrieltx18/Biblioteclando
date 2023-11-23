@@ -54,9 +54,10 @@ namespace TCC
             // lbl_Busca
             // 
             this.lbl_Busca.AutoSize = true;
-            this.lbl_Busca.Location = new System.Drawing.Point(12, 36);
+            this.lbl_Busca.Font = new System.Drawing.Font("Javanese Text", 12F);
+            this.lbl_Busca.Location = new System.Drawing.Point(12, 24);
             this.lbl_Busca.Name = "lbl_Busca";
-            this.lbl_Busca.Size = new System.Drawing.Size(81, 17);
+            this.lbl_Busca.Size = new System.Drawing.Size(120, 45);
             this.lbl_Busca.TabIndex = 15;
             this.lbl_Busca.Text = "Buscar por:";
             // 
@@ -66,7 +67,7 @@ namespace TCC
             this.cb_Busca.Items.AddRange(new object[] {
             "Nome",
             "Cargo"});
-            this.cb_Busca.Location = new System.Drawing.Point(99, 33);
+            this.cb_Busca.Location = new System.Drawing.Point(135, 33);
             this.cb_Busca.Name = "cb_Busca";
             this.cb_Busca.Size = new System.Drawing.Size(121, 24);
             this.cb_Busca.TabIndex = 14;
@@ -76,17 +77,17 @@ namespace TCC
             this.btn_Cadastrar.FlatAppearance.BorderSize = 0;
             this.btn_Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Cadastrar.Font = new System.Drawing.Font("Javanese Text", 10.2F);
-            this.btn_Cadastrar.Location = new System.Drawing.Point(772, 12);
+            this.btn_Cadastrar.Location = new System.Drawing.Point(760, 12);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
-            this.btn_Cadastrar.Size = new System.Drawing.Size(100, 65);
-            this.btn_Cadastrar.TabIndex = 13;
+            this.btn_Cadastrar.Size = new System.Drawing.Size(112, 65);
+            this.btn_Cadastrar.TabIndex = 17;
             this.btn_Cadastrar.Text = "Cadastrar";
             this.btn_Cadastrar.UseVisualStyleBackColor = true;
             this.btn_Cadastrar.Click += new System.EventHandler(this.btn_Cadastrar_Click);
             // 
             // tb_Busca
             // 
-            this.tb_Busca.Location = new System.Drawing.Point(226, 33);
+            this.tb_Busca.Location = new System.Drawing.Point(262, 35);
             this.tb_Busca.Name = "tb_Busca";
             this.tb_Busca.Size = new System.Drawing.Size(258, 22);
             this.tb_Busca.TabIndex = 12;
@@ -96,10 +97,12 @@ namespace TCC
             // 
             this.dgv_Funcionarios.AllowUserToAddRows = false;
             this.dgv_Funcionarios.AllowUserToDeleteRows = false;
+            this.dgv_Funcionarios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
             this.dgv_Funcionarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Funcionarios.Location = new System.Drawing.Point(15, 83);
             this.dgv_Funcionarios.Name = "dgv_Funcionarios";
             this.dgv_Funcionarios.ReadOnly = true;
+            this.dgv_Funcionarios.RowHeadersVisible = false;
             this.dgv_Funcionarios.RowHeadersWidth = 51;
             this.dgv_Funcionarios.RowTemplate.Height = 24;
             this.dgv_Funcionarios.Size = new System.Drawing.Size(963, 461);

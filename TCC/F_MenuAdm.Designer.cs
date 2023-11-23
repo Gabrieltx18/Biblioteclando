@@ -154,7 +154,7 @@ namespace TCC
             this.Controls.Add(this.pn_Principal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "F_MenuAdm";
-            this.Text = "Form1";
+            this.Text = "Menu";
             this.pn_Principal.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);

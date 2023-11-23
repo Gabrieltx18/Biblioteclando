@@ -74,7 +74,7 @@ namespace TCC
             this.Controls.Add(this.tb_ID);
             this.Controls.Add(this.label1);
             this.Name = "F_delFuncionarios";
-            this.Text = "F_delFuncionarios";
+            this.Text = "Deletar";
             this.ResumeLayout(false);
             this.PerformLayout();
 

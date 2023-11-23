@@ -29,6 +29,7 @@ namespace TCC
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_Clientes = new System.Windows.Forms.DataGridView();
             this.tb_Busca = new System.Windows.Forms.TextBox();
             this.btn_Cadastrar = new System.Windows.Forms.Button();
@@ -41,10 +42,20 @@ namespace TCC
             // 
             this.dgv_Clientes.AllowUserToAddRows = false;
             this.dgv_Clientes.AllowUserToDeleteRows = false;
+            this.dgv_Clientes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(226)))), ((int)(((byte)(248)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(226)))), ((int)(((byte)(248)))));
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Clientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_Clientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Clientes.Location = new System.Drawing.Point(15, 83);
             this.dgv_Clientes.Name = "dgv_Clientes";
             this.dgv_Clientes.ReadOnly = true;
+            this.dgv_Clientes.RowHeadersVisible = false;
             this.dgv_Clientes.RowHeadersWidth = 51;
             this.dgv_Clientes.RowTemplate.Height = 24;
             this.dgv_Clientes.Size = new System.Drawing.Size(963, 461);
@@ -63,9 +74,9 @@ namespace TCC
             this.btn_Cadastrar.FlatAppearance.BorderSize = 0;
             this.btn_Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Cadastrar.Font = new System.Drawing.Font("Javanese Text", 10.2F);
-            this.btn_Cadastrar.Location = new System.Drawing.Point(878, 12);
+            this.btn_Cadastrar.Location = new System.Drawing.Point(866, 12);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
-            this.btn_Cadastrar.Size = new System.Drawing.Size(100, 65);
+            this.btn_Cadastrar.Size = new System.Drawing.Size(112, 65);
             this.btn_Cadastrar.TabIndex = 5;
             this.btn_Cadastrar.Text = "Cadastrar";
             this.btn_Cadastrar.UseVisualStyleBackColor = true;

@@ -77,9 +77,9 @@ namespace TCC
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Javanese Text", 10.2F);
-            this.button1.Location = new System.Drawing.Point(230, 257);
+            this.button1.Location = new System.Drawing.Point(230, 248);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 30);
+            this.button1.Size = new System.Drawing.Size(106, 39);
             this.button1.TabIndex = 4;
             this.button1.Text = "Consultar";
             this.button1.UseVisualStyleBackColor = true;
@@ -90,9 +90,9 @@ namespace TCC
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Javanese Text", 10.2F);
-            this.button2.Location = new System.Drawing.Point(354, 257);
+            this.button2.Location = new System.Drawing.Point(354, 248);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(106, 30);
+            this.button2.Size = new System.Drawing.Size(106, 39);
             this.button2.TabIndex = 5;
             this.button2.Text = "Excluir";
             this.button2.UseVisualStyleBackColor = true;
@@ -122,7 +122,7 @@ namespace TCC
             this.Controls.Add(this.lblDataEmprestimo);
             this.Controls.Add(this.tbIdEmprestimo);
             this.Name = "F_delEmprestimo";
-            this.Text = "F_delEmprestimo";
+            this.Text = "Deletar";
             this.ResumeLayout(false);
             this.PerformLayout();
 

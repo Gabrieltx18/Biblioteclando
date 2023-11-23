@@ -37,6 +37,7 @@ namespace TCC
 
             dt.DefaultView.RowFilter = $"{colunaSelecionada} like '%{valorBusca}%'";
         }
+
         public static DataTable Livros()
         {
             MySqlDataAdapter data = null;

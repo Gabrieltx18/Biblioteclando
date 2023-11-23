@@ -44,6 +44,7 @@ namespace TCC
             this.dgv_Relatorio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Relatorio.Location = new System.Drawing.Point(263, 12);
             this.dgv_Relatorio.Name = "dgv_Relatorio";
+            this.dgv_Relatorio.RowHeadersVisible = false;
             this.dgv_Relatorio.RowHeadersWidth = 51;
             this.dgv_Relatorio.RowTemplate.Height = 24;
             this.dgv_Relatorio.Size = new System.Drawing.Size(715, 532);

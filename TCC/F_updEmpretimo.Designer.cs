@@ -116,7 +116,7 @@ namespace TCC
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "F_updEmpretimo";
-            this.Text = "F_updEmpretimo";
+            this.Text = "Alterar";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -83,9 +83,9 @@ namespace TCC
             // 
             // btn_senha
             // 
-            this.btn_senha.Location = new System.Drawing.Point(321, 144);
+            this.btn_senha.Location = new System.Drawing.Point(326, 137);
             this.btn_senha.Name = "btn_senha";
-            this.btn_senha.Size = new System.Drawing.Size(103, 22);
+            this.btn_senha.Size = new System.Drawing.Size(103, 36);
             this.btn_senha.TabIndex = 4;
             this.btn_senha.Text = "Gerar Senha";
             this.btn_senha.UseVisualStyleBackColor = true;
@@ -154,7 +154,7 @@ namespace TCC
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "F_adcFuncionario";
-            this.Text = "F_adcFuncionario";
+            this.Text = "Cadastrar";
             this.ResumeLayout(false);
             this.PerformLayout();
 

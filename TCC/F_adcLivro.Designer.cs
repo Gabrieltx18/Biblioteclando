@@ -222,7 +222,7 @@ namespace TCC
             this.Controls.Add(this.lbl_Titulo);
             this.Controls.Add(this.lbl_ISBN);
             this.Name = "F_adcLivro";
-            this.Text = "F_adcLivro";
+            this.Text = "Cadastrar";
             this.ResumeLayout(false);
             this.PerformLayout();
 

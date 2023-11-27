@@ -63,18 +63,6 @@ namespace TCC
                 var cmd = Banco.conexaobanco().CreateCommand();
                 {
 
-
-
-                    //cmd.CommandText = "INSERT INTO tbEditora(nome) VALUES(@EDITORA)";
-                    //cmd.Parameters.Clear();
-                    //cmd.Parameters.AddWithValue("@EDITORA", tb_Editora.Text);
-                    //cmd.ExecuteNonQuery();
-
-                    //cmd.CommandText = "INSERT INTO tbGenero(nome_genero) VALUES(@GENERO)";
-                    //cmd.Parameters.Clear();
-                    //cmd.Parameters.AddWithValue("@GENERO", tb_Genero.Text);
-                    //cmd.ExecuteNonQuery();
-
                     cmd.CommandText = "INSERT INTO tbLivro(ISBN, título, descrição, data_publicacao, Número_de_páginas,id_Editora) VALUES(@ISBN, @TITULO, @DESCRICAO, @DATA, @PAGINAS,@id_editora);";
                     cmd.Parameters.AddWithValue("@ISBN", tb_ISBN.Text);
                     cmd.Parameters.AddWithValue("@TITULO", tb_Titulo.Text);

@@ -13,10 +13,6 @@ namespace TCC
 {
     public partial class F_adcEmpretimo : Form
     {
-        public string cliente;
-        public string livro;
-        public string emprestimo;
-        public string devolução;
         public F_adcEmpretimo()
         {
             InitializeComponent();

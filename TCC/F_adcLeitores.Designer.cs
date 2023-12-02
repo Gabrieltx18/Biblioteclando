@@ -101,7 +101,7 @@ namespace TCC
             // 
             // tb_cpf
             // 
-            this.tb_cpf.Location = new System.Drawing.Point(108, 219);
+            this.tb_cpf.Location = new System.Drawing.Point(99, 219);
             this.tb_cpf.Name = "tb_cpf";
             this.tb_cpf.Size = new System.Drawing.Size(174, 22);
             this.tb_cpf.TabIndex = 10;
@@ -134,7 +134,7 @@ namespace TCC
             this.btn_Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Cadastrar.Font = new System.Drawing.Font("Javanese Text", 10.2F);
             this.btn_Cadastrar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_Cadastrar.Location = new System.Drawing.Point(426, 315);
+            this.btn_Cadastrar.Location = new System.Drawing.Point(480, 338);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
             this.btn_Cadastrar.Size = new System.Drawing.Size(132, 37);
             this.btn_Cadastrar.TabIndex = 15;

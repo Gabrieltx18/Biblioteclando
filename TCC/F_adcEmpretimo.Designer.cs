@@ -116,7 +116,7 @@ namespace TCC
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Javanese Text", 10.2F);
-            this.button1.Location = new System.Drawing.Point(386, 287);
+            this.button1.Location = new System.Drawing.Point(386, 288);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(132, 37);
             this.button1.TabIndex = 8;

@@ -73,6 +73,7 @@ namespace TCC
             // 
             this.tb_Senha.Location = new System.Drawing.Point(713, 238);
             this.tb_Senha.Name = "tb_Senha";
+            this.tb_Senha.PasswordChar = '*';
             this.tb_Senha.Size = new System.Drawing.Size(276, 22);
             this.tb_Senha.TabIndex = 4;
             // 

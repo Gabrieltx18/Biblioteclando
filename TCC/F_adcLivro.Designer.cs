@@ -42,10 +42,10 @@ namespace TCC
             this.tb_Descrição = new System.Windows.Forms.TextBox();
             this.tb_Titulo = new System.Windows.Forms.TextBox();
             this.tb_Paginas = new System.Windows.Forms.TextBox();
-            this.maskedDataPublicacao = new System.Windows.Forms.MaskedTextBox();
             this.comboGenero = new System.Windows.Forms.ComboBox();
             this.comboAutor = new System.Windows.Forms.ComboBox();
             this.comboEditora = new System.Windows.Forms.ComboBox();
+            this.dt_DataPublicacao = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // lbl_ISBN
@@ -184,15 +184,6 @@ namespace TCC
             this.tb_Paginas.Size = new System.Drawing.Size(261, 27);
             this.tb_Paginas.TabIndex = 16;
             // 
-            // maskedDataPublicacao
-            // 
-            this.maskedDataPublicacao.Location = new System.Drawing.Point(38, 351);
-            this.maskedDataPublicacao.Mask = "##/##/####";
-            this.maskedDataPublicacao.Name = "maskedDataPublicacao";
-            this.maskedDataPublicacao.PromptChar = ' ';
-            this.maskedDataPublicacao.Size = new System.Drawing.Size(172, 27);
-            this.maskedDataPublicacao.TabIndex = 17;
-            // 
             // comboGenero
             // 
             this.comboGenero.FormattingEnabled = true;
@@ -217,17 +208,26 @@ namespace TCC
             this.comboEditora.Size = new System.Drawing.Size(220, 27);
             this.comboEditora.TabIndex = 20;
             // 
+            // dt_DataPublicacao
+            // 
+            this.dt_DataPublicacao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dt_DataPublicacao.Location = new System.Drawing.Point(38, 351);
+            this.dt_DataPublicacao.Name = "dt_DataPublicacao";
+            this.dt_DataPublicacao.Size = new System.Drawing.Size(177, 27);
+            this.dt_DataPublicacao.TabIndex = 21;
+            this.dt_DataPublicacao.Value = new System.DateTime(2023, 12, 2, 0, 0, 0, 0);
+            // 
             // F_adcLivro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(204)))), ((int)(((byte)(185)))));
             this.ClientSize = new System.Drawing.Size(677, 495);
+            this.Controls.Add(this.dt_DataPublicacao);
             this.Controls.Add(this.lbl_paginas);
             this.Controls.Add(this.comboEditora);
             this.Controls.Add(this.comboAutor);
             this.Controls.Add(this.comboGenero);
-            this.Controls.Add(this.maskedDataPublicacao);
             this.Controls.Add(this.tb_Paginas);
             this.Controls.Add(this.tb_Titulo);
             this.Controls.Add(this.tb_Descrição);
@@ -265,9 +265,9 @@ namespace TCC
         private System.Windows.Forms.TextBox tb_Descrição;
         private System.Windows.Forms.TextBox tb_Titulo;
         private System.Windows.Forms.TextBox tb_Paginas;
-        private System.Windows.Forms.MaskedTextBox maskedDataPublicacao;
         private System.Windows.Forms.ComboBox comboGenero;
         private System.Windows.Forms.ComboBox comboAutor;
         private System.Windows.Forms.ComboBox comboEditora;
+        private System.Windows.Forms.DateTimePicker dt_DataPublicacao;
     }
 }

@@ -46,7 +46,7 @@ namespace TCC
             {
                 using (var cmd = Banco.conexaobanco().CreateCommand())
                 {
-                    cmd.CommandText = "SELECT * FROM tbLivro";
+                    cmd.CommandText = "SELECT * FROM vwLivrosDetalher";
                     data = new MySqlDataAdapter(cmd.CommandText, Banco.conexaobanco());
                     data.Fill(dt);
                     return dt;

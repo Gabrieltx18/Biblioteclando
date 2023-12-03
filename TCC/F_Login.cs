@@ -54,5 +54,17 @@ namespace TCC
                 MessageBox.Show("Usuário ou Senha não encontrados");
             }
         }
+
+        private void ckb_Senha_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckb_Senha.Checked)
+            {
+                tb_Senha.PasswordChar = '\u0000';
+            }
+            else
+            {
+                tb_Senha.PasswordChar = '*';
+            }
+        }
     }
 }

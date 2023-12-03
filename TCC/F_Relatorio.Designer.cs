@@ -49,6 +49,7 @@ namespace TCC
             this.dgv_Relatorio.RowTemplate.Height = 24;
             this.dgv_Relatorio.Size = new System.Drawing.Size(715, 532);
             this.dgv_Relatorio.TabIndex = 0;
+            this.dgv_Relatorio.Visible = false;
             // 
             // dtPicker_Inicial
             // 

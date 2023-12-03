@@ -47,6 +47,7 @@ namespace TCC
         }
         private void btn_GerarRelatorio_Click(object sender, EventArgs e)
         {
+            dgv_Relatorio.Visible = true;
             F_Relatorio f = new F_Relatorio();
             f.inicio = dtPicker_Inicial.Value.ToString("yyyy-MM-dd");
             f.final = dtPicker_Final.Value.ToString("yyyy-MM-dd");

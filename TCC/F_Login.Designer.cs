@@ -93,6 +93,7 @@ namespace TCC
             this.ckb_Senha.TabIndex = 6;
             this.ckb_Senha.Text = "Mostrar Senha";
             this.ckb_Senha.UseVisualStyleBackColor = true;
+            this.ckb_Senha.CheckedChanged += new System.EventHandler(this.ckb_Senha_CheckedChanged);
             // 
             // btn_Login
             // 

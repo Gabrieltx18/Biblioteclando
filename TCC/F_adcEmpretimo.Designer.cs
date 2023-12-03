@@ -43,7 +43,7 @@ namespace TCC
             // dt_devolucao
             // 
             this.dt_devolucao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dt_devolucao.Location = new System.Drawing.Point(154, 262);
+            this.dt_devolucao.Location = new System.Drawing.Point(135, 256);
             this.dt_devolucao.Name = "dt_devolucao";
             this.dt_devolucao.Size = new System.Drawing.Size(150, 22);
             this.dt_devolucao.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace TCC
             this.dt_emprestimo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dt_emprestimo.Location = new System.Drawing.Point(215, 211);
             this.dt_emprestimo.Name = "dt_emprestimo";
-            this.dt_emprestimo.Size = new System.Drawing.Size(139, 22);
+            this.dt_emprestimo.Size = new System.Drawing.Size(143, 22);
             this.dt_emprestimo.TabIndex = 1;
             // 
             // tb_livro
